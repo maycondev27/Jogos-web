@@ -1,0 +1,90 @@
+
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+body {
+    background: lightblue url("img/noite.jpg");
+}
+.game-board {
+    width: 80%;
+    height: 500px;
+    border-bottom: 10px solid rgb(34, 31, 31);
+   margin: 0 auto;
+    position: relative;
+    overflow: hidden; 
+
+    background: linear-gradient(#0e0d0dc0, #2423218a);
+}
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animations 1.5s infinite linear; 
+}
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+   
+    
+}
+.jump {
+    animation: jump 500ms ease-out;
+}
+.clouds {
+    position: absolute;
+    width: 250px;
+    animation: clouds-animation 15s infinite linear;
+}
+
+.h1c {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    
+}
+.foo1 {
+    
+    margin-left: 1400px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    color: white;
+}
+@keyframes pipe-animations {
+    from {
+    right: -80px;
+}
+to {
+  right: 100%;
+}
+}
+
+@keyframes jump {
+    0% {
+       bottom: 0;  
+    }
+    40% {
+        bottom: 220px;
+    }
+    50% {
+        bottom: 220px;
+    }
+    60% {
+        bottom: 220px;
+    }
+    100% {
+        bottom: 0;
+    }
+
+}
+@keyframes clouds-animation {
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }
+}
