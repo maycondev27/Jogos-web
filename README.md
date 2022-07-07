@@ -4,4 +4,4 @@
                                                                                              
 <a href="https://maycondev27.github.io/Jogos-web/Mario">Executar jogo 'Mario Jump'</a>
 
-<a href="https://maycondev27.github.io/Jogos-web/Mario" target="_black">Executar jogo 'Mario Jump'</a>
+<a href="https://maycondev27.github.io/Jogos-web/Mario" target="_blank">Executar jogo 'Mario Jump'</a>
